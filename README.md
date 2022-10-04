@@ -3,7 +3,7 @@ Problemas resolvidos do beecrowd, antigo URI.
 https://www.beecrowd.com.br/judge/en/profile/563812
 
 
-| #Number | Challenge | Solution | Level |
+| # | Challenge | Solution | Level |
 |---------|-----------|----------|-------|
 | 1020 | [Age in Days](https://www.beecrowd.com.br/judge/pt/problems/view/1020) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1020%20.cpp) | 2 |
 | 1022 | [TDA Rational](https://www.beecrowd.com.br/judge/pt/problems/view/1022) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1022%20.cpp) | 4 |
