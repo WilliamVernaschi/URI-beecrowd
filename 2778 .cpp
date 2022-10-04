@@ -31,22 +31,6 @@ void reset_dp(int dp[102][102][21][21][4]){
 // came_from == 1 -> left
 // came_from == 2 -> right
 
-
-// nao ta detectando quando acaba x ou y direito
-bool eh_possivel(int i, int j, int x, int y, int came_from){
-  //cout << i << " " << j << " " << x << " " << y << endl;
-  if(dp[i][j][x][y][came_from] != UNREACHABLE) return dp[i][j][x][y][came_from];
-  else if(x == 0 || y == 0 || i < 1 || i > n || j > m || j < 1)
-    dp[i][j][x][y][came_from] = false;
-  else if(i == n && j == m)
-    dp[i][j][x][y][came_from] = true;
-  else
-    dp[i][j][x][y][came_from] = eh_possivel(i+1, j, x-(mat[i+1][j] == 0, 0), y-(mat[i+1][j] < 0), 0) || (came_from != 1 && eh_possivel(i, j+1, x-(mat[i][j+1] == 0), y-(mat[i][j+1] < 0), 2)) || (came_from != 2 && eh_possivel(i, j-1, x-(mat[i][j-1] == 0), y-(mat[i][j-1] < 0), 1));
-
-  return dp[i][j][x][y][came_from];
-}
-
-
 int min_dis(int i, int j, int rem_null, int rem_neg, int came_from){
   //cout << i << " " << j << " " << rem_null << " " << rem_neg << " " << came_from << endl;
   if(dp[i][j][rem_null][rem_neg][came_from] != UNREACHABLE) return dp[i][j][rem_null][rem_neg][came_from];
