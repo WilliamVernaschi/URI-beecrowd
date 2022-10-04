@@ -1,6 +1,6 @@
 # URI-beecrowd
 Problemas resolvidos do beecrowd, antigo URI.
-https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/
+https://www.beecrowd.com.br/judge/en/profile/563812
 
 
 | #Number | Challenge | Solution | Level |
