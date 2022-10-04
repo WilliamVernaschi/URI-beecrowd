@@ -23,30 +23,9 @@ int col_code(string s){
   return -1;
 }
 
-string col(int n){
-  if(n == 0) return "VERMELHO";
-  if(n == 1) return "LARANJA";
-  if(n == 2) return "AZUL";
-  if(n == 3) return "VERDE";
-  else return "ANY";
-}
-
 // can i place c1 on top of c2
-bool can_place(int color1, int color2){
-  bool res = 
-  (color1 == 0 && color2 != 1) ||
-  (color1 == 1 && color2 != 2) ||
-  (color1 == 2 && color2 != 3) ||
-  (color1 == 3 && color2 != 0) ||
-  (color2 == 4);
-  if(res){
-    //cout << "vou colocar " << col(color1) << " em cima de " << col(color2) << endl;
-    return true;
-  }
-  else{
-    //cout << "NÃO vou colocar " << col(color1) << " em cima de " << col(color2) << endl;
-  return false;
-  }
+bool can_place(int color1, int color2, int radius1, int radius2){
+  return (color2 != (color1+1)%4 && radius1 < radius2) || color2 == 4;
 }
 
 bool comp(cily c1, cily c2){
@@ -60,21 +39,18 @@ int dp[1002][1002];
 int n;
 
 int solve(int idx, int prev_idx){
-  //cout << idx << " " << col(color) << endl;
   if(dp[idx][prev_idx] != -1) return dp[idx][prev_idx];
   else if(idx == n+1){
     dp[idx][prev_idx] = 0;
   }
   else{
-    int placed;
+    int placed = -INF;
     int didnt = solve(idx+1, prev_idx);
-    if(can_place(cilindros[idx].col, cilindros[prev_idx].col) && cilindros[idx].r < cilindros[prev_idx].r){
+
+    if(can_place(cilindros[idx].col, cilindros[prev_idx].col, cilindros[idx].r, cilindros[prev_idx].r))
       placed = cilindros[idx].h + solve(idx+1, idx);
-    }
-    else{
-      dp[idx][prev_idx] = didnt;
-      return didnt;
-    }
+    
+
     dp[idx][prev_idx] = max(placed, didnt);
   }
   return dp[idx][prev_idx];
@@ -90,19 +66,15 @@ int main(){
       cilindros[i] = c;
     }
     sort(cilindros+1, cilindros+n+1, comp);
-    cily c; c.r = INF;
+    cily c;
+    c.r = INF;
     c.h = 0;
     c.col = 4;
     cilindros[0] = c;
-    /*
-    for(int i = 0; i < n; i++){
 
-      cout << cilindros[i].h << " " << cilindros[i].r << " " << cilindros[i].col << endl;
-    }
-    */
     memset(dp, -1, 1002*1002*sizeof(int));
 
-    cout << solve(0, 0) << " centimetro(s)" << endl;
+    cout << solve(1, 0) << " centimetro(s)" << endl;
   }
    
 }
