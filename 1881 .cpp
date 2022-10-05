@@ -72,20 +72,7 @@ int main(){
 
     long double r1 = (mat_end[0][0]*initv[0] + mat_end[0][1]*initv[1] + mat_end[0][2]*initv[2]);
     long double r2 = (mat_end[1][0]*initv[0] + mat_end[1][1]*initv[1] + mat_end[1][2]*initv[2]);
-
-      
-
-
-    /*
-    if(abs(r1 - 0) < 0.01){
-      cout << "???????????????";
-      r1 = 0;
-    }
-    if(abs(r2 - 0) < 0.01){
-      cout << "???????????????";
-      r2 = 0;
-    }
-    */
+ 
     
     cout << fixed << setprecision(2) << fixSign(r1) << " " << fixSign(r2) << endl;
   }
