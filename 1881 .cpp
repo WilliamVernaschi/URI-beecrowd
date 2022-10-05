@@ -1,3 +1,8 @@
+/*
+BEE 1881 - Robotics Competition
+https://www.beecrowd.com.br/judge/en/problems/view/1881
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -16,14 +21,6 @@ long double fixSign(long double d)
     if (str == "-0.00") return 0.0;
 
     return d;
-}
-
-double roundit(long double x){
-  double ok = round(x * 100.0) / 100.0;
-  if(ok == 0){
-    return 0;
-  }
-  return ok;
 }
 
 const long double PI = 3.14159265358979323846264;
