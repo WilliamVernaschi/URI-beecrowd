@@ -40,6 +40,7 @@ https://www.beecrowd.com.br/judge/en/profile/563812
 | 1212 | [ Primary Arithmetic ](https://www.beecrowd.com.br/judge/pt/problems/view/1212) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1212%20.cpp) | 8 |
 | 1219 | [ Colorful Flowers ](https://www.beecrowd.com.br/judge/pt/problems/view/1219) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1219%20.cpp) | 5 |
 | 1221 | [ Fast Prime Number ](https://www.beecrowd.com.br/judge/pt/problems/view/1221) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1221%20.cpp) | 6 |
+| 1221 | [ Cards ](https://www.beecrowd.com.br/judge/en/problems/view/1224) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1224%20.cpp) | 8 |
 | 1231 | [ Words ](https://www.beecrowd.com.br/judge/pt/problems/view/1231) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1231%20.cpp) | 7 |
 | 1233 | [ Star ](https://www.beecrowd.com.br/judge/pt/problems/view/1233) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1233%20.cpp) | 6 |
 | 1251 | [ Tell me the Frequencies! ](https://www.beecrowd.com.br/judge/pt/problems/view/1251) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1251%20.cpp) | 6 |
@@ -56,6 +57,7 @@ https://www.beecrowd.com.br/judge/en/profile/563812
 | 1473 | [ Lines of Containers ](https://www.beecrowd.com.br/judge/pt/problems/view/1473) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1473%20.cpp) | 7 |
 | 1474 | [ Buses ](https://www.beecrowd.com.br/judge/pt/problems/view/1474) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1474%20.cpp) | 7 |
 | 1599 | [ Peaks of Atlas ](https://www.beecrowd.com.br/judge/pt/problems/view/1599) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1599%20.cpp) | 6 |
+| 1807 | [ Trinomial Triangle, the Revenge ](https://www.beecrowd.com.br/judge/en/problems/view/1807) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1807%20.cpp) | 7 |
 | 1837 | [ Preface ](https://www.beecrowd.com.br/judge/pt/problems/view/1837) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1837%20.cpp) | 7 |
 | 1880 | [ Renzo and the Palindromic Decoration ](https://www.beecrowd.com.br/judge/pt/problems/view/1880) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1880%20.cpp) | 6 |
 | 1881 | [ Robotics Competition ](https://www.beecrowd.com.br/judge/pt/problems/view/1881) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/1881%20.cpp) | 10 |
