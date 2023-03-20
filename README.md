@@ -46,7 +46,7 @@ https://www.beecrowd.com.br/judge/en/profile/563812
 | 1251 | [ Tell me the Frequencies! ](https://www.beecrowd.com.br/judge/pt/problems/view/1251) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/1251.cpp) | 6 |
 | 1252 | [ Sort! Sort!! And Sort!!! ](https://www.beecrowd.com.br/judge/pt/problems/view/1252) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/1252.cpp) | 7 |
 | 1286 | [ Motoboy ](https://www.beecrowd.com.br/judge/pt/problems/view/1286) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/1286.cpp) | 5 |
-| 1287 | [ Friendly Int Parser ](https://www.beecrowd.com.br/judge/pt/problems/view/1287) | [Python](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/1287%20.py) | 8 |
+| 1287 | [ Friendly Int Parser ](https://www.beecrowd.com.br/judge/pt/problems/view/1287) | [Python](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/Python/1287.py) | 8 |
 | 1288 | [ Destruction Cannon ](https://www.beecrowd.com.br/judge/pt/problems/view/1288) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/1288.cpp) | 5 |
 | 1294 | [ The Largest and Smallest Box ](https://www.beecrowd.com.br/judge/pt/problems/view/1294) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/1294.cpp) | 7 |
 | 1295 | [ The Closest Pair Problem ](https://www.beecrowd.com.br/judge/pt/problems/view/1295) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/1295.cpp) | 9 |
@@ -78,7 +78,7 @@ https://www.beecrowd.com.br/judge/en/profile/563812
 | 2664 | [ Ginástica ](https://www.beecrowd.com.br/judge/pt/problems/view/2664) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/2664.cpp) | 4 |
 | 2667 | [ Jogo de Boca ](https://www.beecrowd.com.br/judge/pt/problems/view/2667) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/2667.cpp) | 3 |
 | 2670 | [ Máquina de Café ](https://www.beecrowd.com.br/judge/pt/problems/view/2670) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/2670.cpp) | 3 |
-| 2763 | [ CPF Input and Output ](https://www.beecrowd.com.br/judge/pt/problems/view/2763) | [Python](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/2763%20.py) | 1 |
+| 2763 | [ CPF Input and Output ](https://www.beecrowd.com.br/judge/pt/problems/view/2763) | [Python](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/Python/2763.py) | 1 |
 | 2778 | [ Dabriel's Matrix ](https://www.beecrowd.com.br/judge/pt/problems/view/2778) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/2778.cpp) | 10 |
 | 2790 | [ Dices ](https://www.beecrowd.com.br/judge/pt/problems/view/2790) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/2790.cpp) | 5 |
 | 2830 | [ Copa ](https://www.beecrowd.com.br/judge/pt/problems/view/2830) | [C++](https://github.com/WilliamVernaschi/URI-beecrowd/blob/main/C%2B%2B/2830.cpp) | 5 |
